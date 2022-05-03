@@ -1,0 +1,82 @@
+.wrapper {
+  padding: 50px 100px
+}
+
+.form-control,
+select {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid lightgrey;
+  margin: 10px 0;
+  width: 80%;
+}
+
+.container {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  list-style: none;
+  max-height: 300px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .wrapper {
+    margin: 20px;
+  }
+
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:link,
+.link:visited {
+  color: blue;
+}
+
+.link:hover,
+.link:active {
+  color: red;
+}
+
+.submit {
+  padding: 10px;
+  border: none;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card-container {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.delete {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
